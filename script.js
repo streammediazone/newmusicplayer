@@ -98,7 +98,7 @@ const songs = [
         title: 'Midnight Sky',
         artist: 'Miley Cyrus',
         name: 'Miley Cyrus - Midnight Sky',
-        cover: 'omidnight sky.jpg'
+        cover: 'midnight sky.jpg'
     },
     {
         title: 'Run',
