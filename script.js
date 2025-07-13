@@ -14,6 +14,9 @@ const volumeSlider = document.getElementById('volume-slider');
 const repeatBtn = document.getElementById('repeat');
 const shuffleBtn = document.getElementById('shuffle');
 const songNumberEl = document.getElementById('song-number');
+const togglePlaylistBtn = document.getElementById('toggle-playlist-btn');
+const playlistContainer = document.getElementById('playlist-container');
+const playlistUl = document.getElementById('playlist');
 
 // Zoznam skladieb (uprav podľa svojich súborov!)
 const songs = [
@@ -165,7 +168,8 @@ function loadSong(song) {
         // Ak nie je zapnuté náhodné prehrávanie, používame pôvodný songIndex.
         currentDisplayIndex = songIndex + 1;
         totalSongsCount = songs.length; // Celkový počet skladieb
-    }
+        updateActiveSongInPlaylist(); // <--- SEM PRIDAJ TENTO RIADOK
+}
 
     // Aktualizuj ukazovateľ skladby
     songNumberEl.textContent = `${currentDisplayIndex}/${totalSongsCount}`;
@@ -319,6 +323,61 @@ function shuffleArray(array) {
     }
 }
 
+function displayPlaylist() {
+    playlistUl.innerHTML = ''; // Vyčistí zoznam pred opätovným generovaním
+    songs.forEach((song, index) => {
+        const listItem = document.createElement('li');
+        listItem.setAttribute('data-index', index); // Uloží index skladby ako data atribút
+        listItem.classList.add('playlist-item');
+
+        // Kontajner pre názov a interpreta
+        const songDetails = document.createElement('div');
+        songDetails.classList.add('song-item-title');
+        songDetails.innerHTML = `<strong>${song.title}</strong><br>${song.artist}`;
+        listItem.appendChild(songDetails);
+
+        // Pridanie triedy 'active-song' pre aktuálne prehrávanú skladbu
+        if (index === songIndex) {
+            listItem.classList.add('active-song');
+        }
+
+        listItem.addEventListener('click', () => {
+            songIndex = index; // Nastaví index prehrávanej skladby na kliknutý index
+            loadSong(songs[songIndex]);
+            playSong();
+            updateActiveSongInPlaylist(); // Aktualizuje zvýraznenie
+        });
+        playlistUl.appendChild(listItem);
+    });
+}
+
+// Funkcia na aktualizáciu triedy 'active-song'
+function updateActiveSongInPlaylist() {
+    const allListItems = document.querySelectorAll('.playlist-item');
+    allListItems.forEach((item) => {
+        // Kontrolujeme data-index, aby sme správne porovnali s songIndex
+        if (parseInt(item.getAttribute('data-index')) === songIndex) {
+            item.classList.add('active-song');
+        } else {
+            item.classList.remove('active-song');
+        }
+    });
+    // Voliteľné: Ak sa zoznam zobrazí, scrollujeme k aktuálnej skladbe
+    if (playlistContainer.classList.contains('show')) {
+        const activeItem = document.querySelector('.playlist-item.active-song');
+        if (activeItem) {
+            activeItem.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+    }
+}
+
+function togglePlaylist() {
+    playlistContainer.classList.toggle('show');
+    // Keď sa zoznam zobrazí, chceme sa uistiť, že je správne vygenerovaný
+    if (playlistContainer.classList.contains('show')) {
+        displayPlaylist(); // Regeneruje zoznam (aktualizuje active-song a prípadne scroll)
+    }
+}
 
 // Event Listeners
 playBtn.addEventListener('click', () => (isPlaying ? pauseSong() : playSong()));
@@ -336,9 +395,11 @@ progressContainer.addEventListener('click', setProgress);
 volumeSlider.addEventListener('input', setVolume);
 repeatBtn.addEventListener('click', toggleRepeat);
 shuffleBtn.addEventListener('click', toggleShuffle);
+togglePlaylistBtn.addEventListener('click', togglePlaylist);
 
 // Inicializácia prehrávača s prvou skladbou
 loadSong(songs[songIndex]);
+displayPlaylist();
 
 // Pridanie štýlu pre rotujúci obal albumu pri prehrávaní (do CSS by sa to hodilo)
 // Pridajte toto do style.css pre .player-container.playing .song-image img
