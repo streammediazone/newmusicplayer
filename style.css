@@ -173,8 +173,8 @@ h3 {
 }
 
 .player-button {
-    background-color: #ff6f61;
-    color: #fff;
+    background-color: #295e47;
+    color: #ffffff;
     border: none;
     padding: 10px 20px;
     border-radius: 8px;
@@ -219,14 +219,14 @@ h3 {
 .playlist-container li {
     padding: 12px 10px;
     cursor: pointer;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #ff6f61;
     text-align: left;
     display: flex;
     justify-content: space-between;
     align-items: center;
     transition: background-color 0.2s ease, color 0.2s ease;
     font-size: 0.95rem;
-    color: #555;
+    color: #ffffff;
 }
 
 .playlist-container li:last-child {
@@ -234,8 +234,8 @@ h3 {
 }
 
 .playlist-container li:hover {
-    background-color: #f0f0f0;
-    color: #333;
+    background-color: #ff6f61;
+    color: #000000;
 }
 
 .playlist-container li.active-song {
