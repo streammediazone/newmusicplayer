@@ -259,7 +259,7 @@ h3 {
         transform: scale(1);
     }
     50% {
-        transform: scale(1.03); /* Mierny nárast veľkosti */
+        transform: scale(1.05); /* Mierny nárast veľkosti */
     }
     100% {
         transform: scale(1);
@@ -268,5 +268,5 @@ h3 {
 
 /* Trieda, ktorá aplikuje animáciu na obrázok obalu */
 .song-image.pulsing img {
-    animation: pulse 1.5s infinite alternate ease-in-out; /* 1.5 sekundy, nekonečne, striedavo, plynulý prechod */
+    animation: pulse 2.5s infinite alternate ease-in-out; /* 1.5 sekundy, nekonečne, striedavo, plynulý prechod */
 }
