@@ -38,7 +38,7 @@ const songs = [
         title: 'Something Just Like This',
         artist: 'Coldplay',
         name: 'Coldplay - Something Just Like This',
-        cover: 'obrazky/coldplay.jpg'
+        cover: 'coldplay.jpg'
     },
     {
         title: 'Lose My Mind',
