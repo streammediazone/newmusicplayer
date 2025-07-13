@@ -20,7 +20,7 @@ const songs = [
         title: 'Dont Let Me Drown',
         artist: 'Burna Boy',
         name: 'Burna Boy - Don t Let Me Drown', // Názov MP3 súboru bez prípony
-        cover: 'f1 album.jpg' // Názov obrázku bez prípony
+        cover: 'f1 album' // Názov obrázku bez prípony
     },
     {
         title: 'Bam Bam',
@@ -37,98 +37,98 @@ const songs = [
     {
         title: 'Something Just Like This',
         artist: 'Coldplay',
-        name: 'hudba/Coldplay - Something Just Like This',
+        name: 'Coldplay - Something Just Like This',
         cover: 'obrazky/coldplay'
     },
     {
         title: 'Lose My Mind',
         artist: 'Don Toliver',
-        name: 'hudba/Don Toliver - Lose My Mind',
-        cover: 'obrazky/f1 album'
+        name: 'Don Toliver - Lose My Mind',
+        cover: 'f1 album'
     },
     {
         title: 'Maria',
         artist: 'Dua Lipa',
-        name: 'hudba/Dua Lipa - Maria',
-        cover: 'obrazky/dua lipa'
+        name: 'Dua Lipa - Maria',
+        cover: 'dua lipa'
     },
     {
         title: 'Azizam',
         artist: 'Ed Sheeran',
-        name: 'hudba/Ed Sheeran - Azizam',
-        cover: 'obrazky/azizam'
+        name: 'Ed Sheeran - Azizam',
+        cover: 'azizam'
     },
     {
         title: 'End of the World',
         artist: 'Miley Cyrus',
-        name: 'hudba/Miley Cyrus - End of the World',
-        cover: 'obrazky/end of the world'
+        name: 'Miley Cyrus - End of the World',
+        cover: 'end of the world'
     },
     {
         title: 'Invincible',
         artist: 'One Republic',
-        name: 'hudba/OneRepublic - Invincible',
-        cover: 'obrazky/invincible'
+        name: 'OneRepublic - Invincible',
+        cover: 'invincible'
     },
     {
         title: 'Drive',
         artist: 'Ed Sheeran',
-        name: 'hudba/Ed Sheeran - Drive',
-        cover: 'obrazky/f1 album'
+        name: 'Ed Sheeran - Drive',
+        cover: 'f1 album'
     },
     {
         title: 'Malibu',
         artist: 'Miley Cyrus',
-        name: 'hudba/Miley Cyrus - Malibu',
-        cover: 'obrazky/malibu'
+        name: 'Miley Cyrus - Malibu',
+        cover: 'malibu'
     },
     {
         title: 'Runaway',
         artist: 'One Republic',
-        name: 'hudba/OneRepublic - RUNAWAY',
-        cover: 'obrazky/runaway'
+        name: 'OneRepublic - RUNAWAY',
+        cover: 'runaway'
     },
     {
         title: 'Sapphire',
         artist: 'Ed Sheeran',
-        name: 'hudba/Ed Sheeran - Sapphire',
-        cover: 'obrazky/sapphire'
+        name: 'Ed Sheeran - Sapphire',
+        cover: 'sapphire'
     },
     {
         title: 'Midnight Sky',
         artist: 'Miley Cyrus',
-        name: 'hudba/Miley Cyrus - Midnight Sky',
-        cover: 'obrazky/midnight sky'
+        name: 'Miley Cyrus - Midnight Sky',
+        cover: 'omidnight sky'
     },
     {
         title: 'Run',
         artist: 'One Republic',
-        name: 'hudba/OneRepublic - Run',
-        cover: 'obrazky/run'
+        name: 'OneRepublic - Run',
+        cover: 'run'
     },
     {
         title: 'Messy',
         artist: 'Rosé',
-        name: 'hudba/Rosé - Messy',
-        cover: 'obrazky/f1 album'
+        name: 'Rosé - Messy',
+        cover: 'f1 album'
     },
     {
         title: 'Prisoner',
         artist: 'Miley Cyrus',
-        name: 'hudba/Miley Cyrus - Prisoner',
-        cover: 'obrazky/midnight sky'
+        name: 'Miley Cyrus - Prisoner',
+        cover: 'midnight sky'
     },
     {
         title: 'Just Keep Watching',
         artist: 'Tate McRae',
-        name: 'hudba/Tate McRae - Just Keep Watching',
-        cover: 'obrazky/f1 album'
+        name: 'Tate McRae - Just Keep Watching',
+        cover: 'f1 album'
     },
     {
         title: 'Omg!',
         artist: 'Tiësto',
-        name: 'hudba/Tiësto - OMG!',
-        cover: 'obrazky/f1 album'
+        name: 'Tiësto - OMG!',
+        cover: 'f1 album'
     },
     // Pridaj ďalšie skladby tu
     // {
