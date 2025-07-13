@@ -38,97 +38,97 @@ const songs = [
         title: 'Something Just Like This',
         artist: 'Coldplay',
         name: 'Coldplay - Something Just Like This',
-        cover: 'obrazky/coldplay'
+        cover: 'obrazky/coldplay.jpg'
     },
     {
         title: 'Lose My Mind',
         artist: 'Don Toliver',
         name: 'Don Toliver - Lose My Mind',
-        cover: 'f1 album'
+        cover: 'f1 album.jpg'
     },
     {
         title: 'Maria',
         artist: 'Dua Lipa',
         name: 'Dua Lipa - Maria',
-        cover: 'dua lipa'
+        cover: 'dua lipa.jpg'
     },
     {
         title: 'Azizam',
         artist: 'Ed Sheeran',
         name: 'Ed Sheeran - Azizam',
-        cover: 'azizam'
+        cover: 'azizam.jpg'
     },
     {
         title: 'End of the World',
         artist: 'Miley Cyrus',
         name: 'Miley Cyrus - End of the World',
-        cover: 'end of the world'
+        cover: 'end of the world.jpg'
     },
     {
         title: 'Invincible',
         artist: 'One Republic',
         name: 'OneRepublic - Invincible',
-        cover: 'invincible'
+        cover: 'invincible.jpg'
     },
     {
         title: 'Drive',
         artist: 'Ed Sheeran',
         name: 'Ed Sheeran - Drive',
-        cover: 'f1 album'
+        cover: 'f1 album.jpg'
     },
     {
         title: 'Malibu',
         artist: 'Miley Cyrus',
         name: 'Miley Cyrus - Malibu',
-        cover: 'malibu'
+        cover: 'malibu.jpg'
     },
     {
         title: 'Runaway',
         artist: 'One Republic',
         name: 'OneRepublic - RUNAWAY',
-        cover: 'runaway'
+        cover: 'runaway.jpg'
     },
     {
         title: 'Sapphire',
         artist: 'Ed Sheeran',
         name: 'Ed Sheeran - Sapphire',
-        cover: 'sapphire'
+        cover: 'sapphire.jpg'
     },
     {
         title: 'Midnight Sky',
         artist: 'Miley Cyrus',
         name: 'Miley Cyrus - Midnight Sky',
-        cover: 'omidnight sky'
+        cover: 'omidnight sky.jpg'
     },
     {
         title: 'Run',
         artist: 'One Republic',
         name: 'OneRepublic - Run',
-        cover: 'run'
+        cover: 'run.jpg'
     },
     {
         title: 'Messy',
         artist: 'Rosé',
         name: 'Rosé - Messy',
-        cover: 'f1 album'
+        cover: 'f1 album.jpg'
     },
     {
         title: 'Prisoner',
         artist: 'Miley Cyrus',
         name: 'Miley Cyrus - Prisoner',
-        cover: 'midnight sky'
+        cover: 'midnight sky.jpg'
     },
     {
         title: 'Just Keep Watching',
         artist: 'Tate McRae',
         name: 'Tate McRae - Just Keep Watching',
-        cover: 'f1 album'
+        cover: 'f1 album.jpg'
     },
     {
         title: 'Omg!',
         artist: 'Tiësto',
         name: 'Tiësto - OMG!',
-        cover: 'f1 album'
+        cover: 'f1 album.jpg'
     },
     // Pridaj ďalšie skladby tu
     // {
