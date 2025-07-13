@@ -17,16 +17,118 @@ const shuffleBtn = document.getElementById('shuffle');
 // Zoznam skladieb (uprav podľa svojich súborov!)
 const songs = [
     {
-        title: 'Názov Skladby 1',
-        artist: 'Interpret 1',
-        name: 'song1', // Názov MP3 súboru bez prípony
-        cover: 'cover1.jpg' // Názov obrázku bez prípony
+        title: 'Dont Let Me Drown',
+        artist: 'Burna Boy',
+        name: 'hudba/Burna Boy - Don t Let Me Drown.mp3', // Názov MP3 súboru bez prípony
+        cover: 'obrazky/f1 album.jpg' // Názov obrázku bez prípony
     },
     {
-        title: 'Názov Skladby 2',
-        artist: 'Interpret 2',
-        name: 'song2',
-        cover: 'cover2.jpg'
+        title: 'Bam Bam',
+        artist: 'Camila Cabello',
+        name: 'hudba/Camila Cabello - Bam Bam.mp3',
+        cover: 'cobrazky/camila cabello.jpg'
+    },
+    {
+        title: 'Light Switch',
+        artist: 'Charlie Puth',
+        name: 'hudba/Charlie Puth - Light Switch.mp3',
+        cover: 'obrazky/light switch.jpg'
+    },
+    {
+        title: 'Something Just Like This',
+        artist: 'Coldplay',
+        name: 'hudba/Coldplay - Something Just Like This.mp3',
+        cover: 'obrazky/coldplay.jpg'
+    },
+    {
+        title: 'Lose My Mind',
+        artist: 'Don Toliver',
+        name: 'hudba/Don Toliver - Lose My Mind.mp3',
+        cover: 'obrazky/f1 album.jpg'
+    },
+    {
+        title: 'Maria',
+        artist: 'Dua Lipa',
+        name: 'hudba/Dua Lipa - Maria.mp3',
+        cover: 'obrazky/dua lipa.jpg'
+    },
+    {
+        title: 'Azizam',
+        artist: 'Ed Sheeran',
+        name: 'hudba/Ed Sheeran - Azizam.mp3',
+        cover: 'obrazky/azizam.jpg'
+    },
+    {
+        title: 'End of the World',
+        artist: 'Miley Cyrus',
+        name: 'hudba/Miley Cyrus - End of the World.mp3',
+        cover: 'obrazky/end of the world.jpg'
+    },
+    {
+        title: 'Invincible',
+        artist: 'One Republic',
+        name: 'hudba/OneRepublic - Invincible.mp3',
+        cover: 'obrazky/invincible.jpg'
+    },
+    {
+        title: 'Drive',
+        artist: 'Ed Sheeran',
+        name: 'hudba/Ed Sheeran - Drive.mp3',
+        cover: 'obrazky/f1 album.jpg'
+    },
+    {
+        title: 'Malibu',
+        artist: 'Miley Cyrus',
+        name: 'hudba/Miley Cyrus - Malibu.mp3',
+        cover: 'obrazky/malibu.jpg'
+    },
+    {
+        title: 'Runaway',
+        artist: 'One Republic',
+        name: 'hudba/OneRepublic - RUNAWAY.mp3',
+        cover: 'obrazky/runaway.jpg'
+    },
+    {
+        title: 'Sapphire',
+        artist: 'Ed Sheeran',
+        name: 'hudba/Ed Sheeran - Sapphire.mp3',
+        cover: 'obrazky/sapphire.jpg'
+    },
+    {
+        title: 'Midnight Sky',
+        artist: 'Miley Cyrus',
+        name: 'hudba/Miley Cyrus - Midnight Sky.mp3',
+        cover: 'obrazky/midnight sky.jpg'
+    },
+    {
+        title: 'Run',
+        artist: 'One Republic',
+        name: 'hudba/OneRepublic - Run.mp3',
+        cover: 'obrazky/run.jpg'
+    },
+    {
+        title: 'Messy',
+        artist: 'Rosé',
+        name: 'hudba/Rosé - Messy.mp3',
+        cover: 'obrazky/f1 album.jpg'
+    },
+    {
+        title: 'Prisoner',
+        artist: 'Miley Cyrus',
+        name: 'hudba/Miley Cyrus - Prisoner.mp3',
+        cover: 'obrazky/midnight sky.jpg'
+    },
+    {
+        title: 'Just Keep Watching',
+        artist: 'Tate McRae',
+        name: 'hudba/Tate McRae - Just Keep Watching.mp3',
+        cover: 'obrazky/f1 album.jpg'
+    },
+    {
+        title: 'Omg',
+        artist: 'Tiësto',
+        name: 'hudba/Tiësto - OMG!.mp3',
+        cover: 'obrazky/f1 album.jpg'
     },
     // Pridaj ďalšie skladby tu
     // {
