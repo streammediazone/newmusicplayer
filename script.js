@@ -13,6 +13,7 @@ const durationEl = document.getElementById('duration');
 const volumeSlider = document.getElementById('volume-slider');
 const repeatBtn = document.getElementById('repeat');
 const shuffleBtn = document.getElementById('shuffle');
+const songNumberEl = document.getElementById('song-number');
 
 // Zoznam skladieb (uprav podľa svojich súborov!)
 const songs = [
@@ -151,6 +152,7 @@ function loadSong(song) {
     songArtist.textContent = song.artist;
     audio.src = `hudba/${song.name}.mp3`;
     cover.src = `obrazky/${song.cover}`;
+    songNumberEl.textContent = `${songIndex + 1}/${songs.length}`;
 }
 
 // Prehrať skladbu
