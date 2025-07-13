@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Môj Hudobný Prehrávač</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="player-container">
+        <div class="song-image">
+            <img src="obrazky/cover1.jpg" alt="Obal albumu" id="cover">
+        </div>
+        <h2 id="song-title">Názov Skladby</h2>
+        <h3 id="song-artist">Meno Interpreta</h3>
+
+        <audio id="audio" src="hudba/song1.mp3"></audio>
+
+        <div class="progress-container">
+            <div class="progress" id="progress"></div>
+        </div>
+        <div class="duration-wrapper">
+            <span id="current-time">0:00</span>
+            <span id="duration">0:00</span>
+        </div>
+
+        <div class="controls">
+            <i class="fas fa-backward" id="prev" title="Predchádzajúca"></i>
+            <i class="fas fa-play main-button" id="play" title="Prehrať"></i>
+            <i class="fas fa-forward" id="next" title="Ďalšia"></i>
+        </div>
+
+        <div class="volume-container">
+            <i class="fas fa-volume-down"></i>
+            <input type="range" id="volume-slider" min="0" max="1" step="0.01" value="1">
+            <i class="fas fa-volume-up"></i>
+        </div>
+
+        <div class="playback-options">
+            <i class="fas fa-redo-alt" id="repeat" title="Opakovať"></i>
+            <i class="fas fa-random" id="shuffle" title="Náhodné prehrávanie"></i>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
