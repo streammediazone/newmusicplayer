@@ -19,8 +19,8 @@ const songs = [
     {
         title: 'Dont Let Me Drown',
         artist: 'Burna Boy',
-        name: 'hudba/Burna Boy - Don t Let Me Drown', // Názov MP3 súboru bez prípony
-        cover: 'obrazky/f1 album' // Názov obrázku bez prípony
+        name: 'Burna Boy - Don t Let Me Drown', // Názov MP3 súboru bez prípony
+        cover: 'f1 album.jpg' // Názov obrázku bez prípony
     },
     {
         title: 'Bam Bam',
