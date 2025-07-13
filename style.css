@@ -253,3 +253,20 @@ h3 {
     color: #888;
     margin-left: 10px;
 }
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.03); /* Mierny nárast veľkosti */
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Trieda, ktorá aplikuje animáciu na obrázok obalu */
+.song-image.pulsing img {
+    animation: pulse 1.5s infinite alternate ease-in-out; /* 1.5 sekundy, nekonečne, striedavo, plynulý prechod */
+}
