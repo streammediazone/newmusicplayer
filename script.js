@@ -134,6 +134,48 @@ const songs = [
         name: 'Tiësto - OMG!',
         cover: 'f1 album.jpg'
     },
+    {
+        title: 'La Cintura',
+        artist: 'Alvaro Soler',
+        name: 'Alvaro Soler - La Cintura',
+        cover: 'la cintura.jpg'
+    },
+    {
+        title: 'El Mismo Sol',
+        artist: 'Alvaro Soler',
+        name: 'Alvero Soler - El Mismo Sol',
+        cover: 'el mismo sol.jpg'
+    },
+    {
+        title: 'A Tear in Space',
+        artist: 'Glass Animals',
+        name: 'Glass Animals - A Tear in Space',
+        cover: 'a tear in space.jpg'
+    },
+    {
+        title: 'Sofia',
+        artist: 'Alvaro Soler',
+        name: 'Alvaro Soler - Sofia',
+        cover: 'sofia.jpg'
+    },
+    {
+        title: 'Te Imaginaba',
+        artist: 'Alvaro Soler',
+        name: 'Alvaro Soler - Te Imaginaba',
+        cover: 'te imaginaba.jpg'
+    },
+    {
+        title: 'Manila',
+        artist: 'Ray Dalton',
+        name: 'Ray Dalton - Manila',
+        cover: 'manila.jpg'
+    },
+    {
+        title: 'Regalo',
+        artist: 'Alvaro Soler',
+        name: 'Alvaro Soler - Regalo',
+        cover: 'regalo.jpg'
+    },
     // Pridaj ďalšie skladby tu
     // {
     //     title: 'Názov Skladby 3',
