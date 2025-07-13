@@ -13,11 +13,11 @@ body {
     min-height: 100vh;
     background-color: #000000;
     font-family: 'Poppins', sans-serif;
-    color: #692626;
+    color: #000000;
 }
 
 .player-container {
-    background-color: #fff;
+    background-color: #871f1f;
     border-radius: 15px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     padding: 30px;
