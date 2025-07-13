@@ -25,14 +25,14 @@ const songs = [
     {
         title: 'Bam Bam',
         artist: 'Camila Cabello',
-        name: 'hudba/Camila Cabello - Bam Bam',
-        cover: 'cobrazky/camila cabello'
+        name: 'Camila Cabello - Bam Bam',
+        cover: 'camila cabello'
     },
     {
         title: 'Light Switch',
         artist: 'Charlie Puth',
-        name: 'hudba/Charlie Puth - Light Switch',
-        cover: 'obrazky/light switch'
+        name: 'Charlie Puth - Light Switch',
+        cover: 'light switch'
     },
     {
         title: 'Something Just Like This',
