@@ -183,12 +183,30 @@ function playSong() {
     playerContainer.classList.add('playing'); // Pridá triedu pre vizuálne efekty (napr. rotácia obalu)
 }
 
+function playSong() {
+    isPlaying = true;
+    playBtn.classList.replace('fa-play', 'fa-pause');
+    audio.play();
+    playerContainer.classList.add('playing');
+    // NOVÝ RIADOK: Pridá triedu 'pulsing' k elementu song-image
+    document.querySelector('.song-image').classList.add('pulsing');
+}
+
 // Pozastaviť skladbu
 function pauseSong() {
     isPlaying = false;
     playBtn.classList.replace('fa-pause', 'fa-play');
     audio.pause();
     playerContainer.classList.remove('playing');
+}
+
+function pauseSong() {
+    isPlaying = false;
+    playBtn.classList.replace('fa-pause', 'fa-play');
+    audio.pause();
+    playerContainer.classList.remove('playing');
+    // NOVÝ RIADOK: Odoberie triedu 'pulsing' z elementu song-image
+    document.querySelector('.song-image').classList.remove('pulsing');
 }
 
 // Predchádzajúca skladba
