@@ -152,7 +152,23 @@ function loadSong(song) {
     songArtist.textContent = song.artist;
     audio.src = `hudba/${song.name}.mp3`;
     cover.src = `obrazky/${song.cover}`;
-    songNumberEl.textContent = `${songIndex + 1}/${songs.length}`;
+
+    let currentDisplayIndex;
+    let totalSongsCount;
+
+    if (isShuffling) {
+        // Ak je zapnuté náhodné prehrávanie, nájdeme index aktuálnej skladby
+        // v aktuálne zamiešanom poradí (shuffledIndices).
+        currentDisplayIndex = shuffledIndices.indexOf(songIndex) + 1;
+        totalSongsCount = shuffledIndices.length; // Počet skladieb v zamiešanom poradí
+    } else {
+        // Ak nie je zapnuté náhodné prehrávanie, používame pôvodný songIndex.
+        currentDisplayIndex = songIndex + 1;
+        totalSongsCount = songs.length; // Celkový počet skladieb
+    }
+
+    // Aktualizuj ukazovateľ skladby
+    songNumberEl.textContent = `${currentDisplayIndex}/${totalSongsCount}`;
 }
 
 // Prehrať skladbu
