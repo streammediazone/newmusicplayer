@@ -20,19 +20,19 @@ const songs = [
         title: 'Dont Let Me Drown',
         artist: 'Burna Boy',
         name: 'Burna Boy - Don t Let Me Drown', // Názov MP3 súboru bez prípony
-        cover: 'f1 album' // Názov obrázku bez prípony
+        cover: 'f1 album.jpg' // Názov obrázku bez prípony
     },
     {
         title: 'Bam Bam',
         artist: 'Camila Cabello',
         name: 'Camila Cabello - Bam Bam',
-        cover: 'camila cabello'
+        cover: 'camila cabello.jpg'
     },
     {
         title: 'Light Switch',
         artist: 'Charlie Puth',
         name: 'Charlie Puth - Light Switch',
-        cover: 'light switch'
+        cover: 'light switch.jpg'
     },
     {
         title: 'Something Just Like This',
