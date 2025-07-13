@@ -268,5 +268,5 @@ h3 {
 
 /* Trieda, ktorá aplikuje animáciu na obrázok obalu */
 .song-image.pulsing img {
-    animation: pulse 2.5s infinite alternate ease-in-out; /* 1.5 sekundy, nekonečne, striedavo, plynulý prechod */
+    animation: pulse 2.0s infinite alternate ease-in-out; /* 1.5 sekundy, nekonečne, striedavo, plynulý prechod */
 }
