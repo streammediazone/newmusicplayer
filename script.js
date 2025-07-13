@@ -19,116 +19,116 @@ const songs = [
     {
         title: 'Dont Let Me Drown',
         artist: 'Burna Boy',
-        name: 'hudba/Burna Boy - Don t Let Me Drown.mp3', // Názov MP3 súboru bez prípony
-        cover: 'obrazky/f1 album.jpg' // Názov obrázku bez prípony
+        name: 'hudba/Burna Boy - Don t Let Me Drown', // Názov MP3 súboru bez prípony
+        cover: 'obrazky/f1 album' // Názov obrázku bez prípony
     },
     {
         title: 'Bam Bam',
         artist: 'Camila Cabello',
-        name: 'hudba/Camila Cabello - Bam Bam.mp3',
-        cover: 'cobrazky/camila cabello.jpg'
+        name: 'hudba/Camila Cabello - Bam Bam',
+        cover: 'cobrazky/camila cabello'
     },
     {
         title: 'Light Switch',
         artist: 'Charlie Puth',
-        name: 'hudba/Charlie Puth - Light Switch.mp3',
-        cover: 'obrazky/light switch.jpg'
+        name: 'hudba/Charlie Puth - Light Switch',
+        cover: 'obrazky/light switch'
     },
     {
         title: 'Something Just Like This',
         artist: 'Coldplay',
-        name: 'hudba/Coldplay - Something Just Like This.mp3',
-        cover: 'obrazky/coldplay.jpg'
+        name: 'hudba/Coldplay - Something Just Like This',
+        cover: 'obrazky/coldplay'
     },
     {
         title: 'Lose My Mind',
         artist: 'Don Toliver',
-        name: 'hudba/Don Toliver - Lose My Mind.mp3',
-        cover: 'obrazky/f1 album.jpg'
+        name: 'hudba/Don Toliver - Lose My Mind',
+        cover: 'obrazky/f1 album'
     },
     {
         title: 'Maria',
         artist: 'Dua Lipa',
-        name: 'hudba/Dua Lipa - Maria.mp3',
-        cover: 'obrazky/dua lipa.jpg'
+        name: 'hudba/Dua Lipa - Maria',
+        cover: 'obrazky/dua lipa'
     },
     {
         title: 'Azizam',
         artist: 'Ed Sheeran',
-        name: 'hudba/Ed Sheeran - Azizam.mp3',
-        cover: 'obrazky/azizam.jpg'
+        name: 'hudba/Ed Sheeran - Azizam',
+        cover: 'obrazky/azizam'
     },
     {
         title: 'End of the World',
         artist: 'Miley Cyrus',
-        name: 'hudba/Miley Cyrus - End of the World.mp3',
-        cover: 'obrazky/end of the world.jpg'
+        name: 'hudba/Miley Cyrus - End of the World',
+        cover: 'obrazky/end of the world'
     },
     {
         title: 'Invincible',
         artist: 'One Republic',
-        name: 'hudba/OneRepublic - Invincible.mp3',
-        cover: 'obrazky/invincible.jpg'
+        name: 'hudba/OneRepublic - Invincible',
+        cover: 'obrazky/invincible'
     },
     {
         title: 'Drive',
         artist: 'Ed Sheeran',
-        name: 'hudba/Ed Sheeran - Drive.mp3',
-        cover: 'obrazky/f1 album.jpg'
+        name: 'hudba/Ed Sheeran - Drive',
+        cover: 'obrazky/f1 album'
     },
     {
         title: 'Malibu',
         artist: 'Miley Cyrus',
-        name: 'hudba/Miley Cyrus - Malibu.mp3',
-        cover: 'obrazky/malibu.jpg'
+        name: 'hudba/Miley Cyrus - Malibu',
+        cover: 'obrazky/malibu'
     },
     {
         title: 'Runaway',
         artist: 'One Republic',
-        name: 'hudba/OneRepublic - RUNAWAY.mp3',
-        cover: 'obrazky/runaway.jpg'
+        name: 'hudba/OneRepublic - RUNAWAY',
+        cover: 'obrazky/runaway'
     },
     {
         title: 'Sapphire',
         artist: 'Ed Sheeran',
-        name: 'hudba/Ed Sheeran - Sapphire.mp3',
-        cover: 'obrazky/sapphire.jpg'
+        name: 'hudba/Ed Sheeran - Sapphire',
+        cover: 'obrazky/sapphire'
     },
     {
         title: 'Midnight Sky',
         artist: 'Miley Cyrus',
-        name: 'hudba/Miley Cyrus - Midnight Sky.mp3',
-        cover: 'obrazky/midnight sky.jpg'
+        name: 'hudba/Miley Cyrus - Midnight Sky',
+        cover: 'obrazky/midnight sky'
     },
     {
         title: 'Run',
         artist: 'One Republic',
-        name: 'hudba/OneRepublic - Run.mp3',
-        cover: 'obrazky/run.jpg'
+        name: 'hudba/OneRepublic - Run',
+        cover: 'obrazky/run'
     },
     {
         title: 'Messy',
         artist: 'Rosé',
-        name: 'hudba/Rosé - Messy.mp3',
-        cover: 'obrazky/f1 album.jpg'
+        name: 'hudba/Rosé - Messy',
+        cover: 'obrazky/f1 album'
     },
     {
         title: 'Prisoner',
         artist: 'Miley Cyrus',
-        name: 'hudba/Miley Cyrus - Prisoner.mp3',
-        cover: 'obrazky/midnight sky.jpg'
+        name: 'hudba/Miley Cyrus - Prisoner',
+        cover: 'obrazky/midnight sky'
     },
     {
         title: 'Just Keep Watching',
         artist: 'Tate McRae',
-        name: 'hudba/Tate McRae - Just Keep Watching.mp3',
-        cover: 'obrazky/f1 album.jpg'
+        name: 'hudba/Tate McRae - Just Keep Watching',
+        cover: 'obrazky/f1 album'
     },
     {
-        title: 'Omg',
+        title: 'Omg!',
         artist: 'Tiësto',
-        name: 'hudba/Tiësto - OMG!.mp3',
-        cover: 'obrazky/f1 album.jpg'
+        name: 'hudba/Tiësto - OMG!',
+        cover: 'obrazky/f1 album'
     },
     // Pridaj ďalšie skladby tu
     // {
