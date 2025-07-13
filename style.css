@@ -219,7 +219,7 @@ h3 {
 .playlist-container li {
     padding: 12px 10px;
     cursor: pointer;
-    border-bottom: 1px solid #ff6f61;
+    border-bottom: 1px solid #ffffff;
     text-align: left;
     display: flex;
     justify-content: space-between;
@@ -239,8 +239,8 @@ h3 {
 }
 
 .playlist-container li.active-song {
-    background-color: #fff0f0; /* Odľahčená farba pre aktívnu skladbu */
-    color: #ff6f61; /* Zvýraznenie textu aktívnej skladby */
+    background-color: #ff6f61; /* Odľahčená farba pre aktívnu skladbu */
+    color: #000000; /* Zvýraznenie textu aktívnej skladby */
     font-weight: 600;
 }
 
